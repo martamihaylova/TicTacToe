@@ -139,3 +139,32 @@ body {
 .winning-message.show {
     display: flex;
 }
+
+@media only screen and (max-width: 1024px) {
+    .board {
+        margin-top: 25px;
+        grid-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .container {
+        margin: 25px;
+        padding: 25px;
+    }
+    .cell {
+        height: 100px;
+        width: 100px;
+    }
+    .cell.x::before {   
+        font-size: 100px;
+        margin-bottom: 15px;
+    }
+    .cell.o::before {
+        font-size: 75px;
+        margin-top: 7px;
+    }
+    .winning-message {
+        font-size: 85px;
+    }
+}
