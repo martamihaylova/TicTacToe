@@ -1,9 +1,9 @@
 # martamihaylova.github.io
 
-# Tic Tac Toe Game
+## Tic Tac Toe Game
 
 https://martamihaylova.github.io/
 
-## General info
+### General info
 
 Vanila Javascript/CSS project.
